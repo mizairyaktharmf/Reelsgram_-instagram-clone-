@@ -1,12 +1,14 @@
 import React from 'react'
 import Sidebar from './Sidebar'
+import Feed from './Feed'
+import Suggestions from './Suggestions'
 
 function App() {
   return (
     <div className='d-flex vh-100'>
       <div className='w-20'> <Sidebar/> </div>
-      <div className='bg-info w-50'>feed</div>
-      <div className='w-23'>suggestions</div>
+      <div className='bg-info w-50'><Feed /></div>
+      <div className='w-23'><Suggestions /></div>
     </div>
   )
 }

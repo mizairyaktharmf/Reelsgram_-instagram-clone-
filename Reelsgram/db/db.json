@@ -1,0 +1,94 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "Reelsgram/src/assets/profilepic1.jpeg"
+      },
+      "image": "Reelsgram/src/assets/sunset.jpg",
+      "caption": "Beautiful sunset 🌅 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📷"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-09-01T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sara_smith",
+        "profile_pic": "Reelsgram/src/assets/profilepic2.jpeg"
+      },
+      "image": "Reelsgram/src/assets/pasta night.jpg",
+      "caption": "Homemade pasta night 🍝❤️ #Foodie",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Save me a plate 😋"
+        },
+        {
+          "user": "mike_fit",
+          "comment": "Looks delicious 🤤"
+        }
+      ],
+      "timestamp": "2025-09-02T19:10:00Z"
+    },
+    {
+      "id": 3,
+      "user": {
+        "id": 103,
+        "username": "mike_fit",
+        "profile_pic": "Reelsgram/src/assets/profilepic3.jpg"
+      },
+      "image": "Reelsgram/src/assets/workout.jpg",
+      "caption": "No excuses 💪 #WorkoutDone",
+      "likes": 210,
+      "comments": [
+        {
+          "user": "sara_smith",
+          "comment": "Inspiring 🔥"
+        },
+        {
+          "user": "john_doe",
+          "comment": "Respect bro 👏"
+        }
+      ],
+      "timestamp": "2025-09-03T07:45:00Z"
+    },
+    {
+      "id": 4,
+      "user": {
+        "id": 104,
+        "username": "lisa_rose",
+        "profile_pic": "Reelsgram/src/assets/profilepic4.jpeg"
+      },
+      "image": "Reelsgram/src/assets/street style.jpeg",
+      "caption": "Street style vibes ✨ #OOTD",
+      "likes": 175,
+      "comments": [
+        {
+          "user": "sara_smith",
+          "comment": "Fashion queen 👑"
+        },
+        {
+          "user": "john_doe",
+          "comment": "🔥🔥🔥"
+        }
+      ],
+      "timestamp": "2025-09-04T15:20:00Z"
+    }
+  ]
+}
+
+
