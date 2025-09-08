@@ -12,5 +12,5 @@ function App() {
     </div>
   )
 }
-// width styling in boostrap only w-25 w-50 w-75 w-100
+// for bootstrap width styling in boostrap only w-25 w-50 w-75 w-100
 export default App
