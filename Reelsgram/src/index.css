@@ -12,9 +12,6 @@
 .bi{
   margin-right: 10px;
 }
-.stories{
-  height: 60px;
-}
 
 .dp{
   height: 20px;
@@ -31,4 +28,23 @@
 }
 .suggestions .dp{
   margin-top: 0px !important;    /* !important mean ,overrides everything */
+}
+
+.gradient-border{
+  width: 45px;               /* circle size */
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;        /* make it round */
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Insta colors */
+}
+
+.story-dp{
+  width: 40px;
+}
+
+.story{
+  height: 70px;
+  padding: 10px;
 }
