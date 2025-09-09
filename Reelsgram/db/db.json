@@ -87,10 +87,32 @@
         }
       ],
       "timestamp": "2025-09-04T15:20:00Z"
+    },
+    {
+      "id": 2,
+      "user": {
+        "id": 102,
+        "username": "sara_smith",
+        "profile_pic": "/src/assets/profilepic2.jpeg"
+      },
+      "image": "/src/assets/pasta night.jpg",
+      "caption": "Homemade pasta night 🍝❤️ #Foodie",
+      "likes": 98,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "Save me a plate 😋"
+        },
+        {
+          "user": "mike_fit",
+          "comment": "Looks delicious 🤤"
+        }
+      ],
+      "timestamp": "2025-09-02T19:10:00Z"
     }
   ],
 
-  
+
   "profile" :{
         "id": 101,
         "username": "john_doe",
