@@ -113,8 +113,8 @@
   ],
   "profile": {
     "id": 101,
-    "username": "toona_miaw",
-    "profile_pic": "/src/assets/profilepic2.jpeg"
+    "username": "mizairyaktharmf",
+    "profile_pic": "/src/assets/profilepic1.jpeg"
   },
   "suggestions": [
     {
@@ -213,30 +213,5 @@
       "image": "/src/assets/story3.png"
     }
   ],
-
-
-  "followers" :[
-    {
-      "id": 103,
-        "username": "_boomike_fity",
-        "profile_pic": "/src/assets/profilepic3.jpg"
-    },
-    {
-        "id": 102,
-        "username": "sara_smith",
-        "profile_pic": "/src/assets/profilepic2.jpeg"
-      },
-      {
-        "id": 101,
-        "username": "john_doe",
-        "profile_pic": "/src/assets/profilepic1.jpeg"
-      },
-      {
-        "id": 100,
-        "username": "john_doe",
-        "profile_pic": "/src/assets/profilepic1.jpeg"
-      }
-
-
-  ]
+  "followers": []
 }

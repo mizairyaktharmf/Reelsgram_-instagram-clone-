@@ -3,8 +3,12 @@ import axios from 'axios'
 
 function Profile() {
 
-    const [profile , setProfile] = useState(null)
-    const [followers , setFollowers] = useState([])
+    const [profile , setProfile] = useState(null);
+
+    const [followers , setFollowers] = useState([]);
+
+    const [unfollowed , setUnfollowed] =useState(0);
+
 
     useEffect(()=>{
         axios.get('http://localhost:3000/profile')
@@ -27,10 +31,18 @@ function Profile() {
     }
 
 
-    const handleUpdate = async (params) => {
-        axios.put('http://localhost:3000/followers')
+    const handleUpdate = async () => {
+        axios.put('http://localhost:3000/profile',profile)
         .then(console.log("updated"))
         .catch(err => console.log(err))
+    }
+
+    const handleUnfollow = async (id) =>{
+        axios.delete(`http://localhost:3000/followers/${id}`)
+        .then(alert("Un Followed"))
+        .then(setUnfollowed(!unfollowed))
+        .catch(err => console.log(err))
+
     }
 
 
@@ -69,12 +81,17 @@ function Profile() {
 
         {followers.length > 0 ?(
             followers.map(follower =>(
-                <div key={follower.id}>
+                <div key={follower.id} className='d-flex my-2'>
                     {follower.username}
+                    <button className='btn btn-secondary ms-auto'
+                        onClick={()=>{handleUnfollow(follower.id)}}
+                        >
+                        Un Follow
+                    </button>
                 </div>
             ))
         ):(
-            <div>Loading Followers</div>
+            <div >Loading Followers</div>
         )}
     </div>
   )

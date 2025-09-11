@@ -1,0 +1,29 @@
+Variables & Data Types
+(let, const, var, strings, numbers, arrays, objects)
+
+ Functions
+(Function declaration, arrow functions, callback functions)
+
+ ES6+ Features
+(Destructuring, spread/rest operators, template literals)
+
+ DOM Manipulation
+(querySelector, event listeners, modifying elements)
+
+ Events & Event Handling
+(click, keypress, form events, event bubbling)
+
+ Array Methods
+(map, filter, reduce, forEach, find)
+
+ Objects & Object Methods
+(Object.keys, Object.values, Object.entries, object destructuring)
+
+ Promises & Async/Await
+(Handling asynchronous operations, fetch API)
+
+ Fetch API (for API calls)
+(Getting data from an API, handling responses)
+
+🔟 Modules & Import/Export
+(Using ES6 modules in JavaScript)
