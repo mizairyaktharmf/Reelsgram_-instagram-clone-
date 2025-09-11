@@ -44,7 +44,7 @@ function Suggestions() {
                   <div className='d-flex'>
                       <img className="dp rounded-circle" src={suggestion.profile_pic} alt="Profile Pic" />
                       <h5>{suggestion.username}</h5>
-                      <p className='text-primary ms-auto'>Follow</p>
+                      <a className='text-primary ms-auto'>Follow</a>
                   </div>
         
               </div>

@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "id": 101,
         "username": "john_doe",
@@ -23,7 +23,7 @@
       "timestamp": "2025-09-01T14:30:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "sara_smith",
@@ -45,7 +45,7 @@
       "timestamp": "2025-09-02T19:10:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 103,
         "username": "mike_fit",
@@ -67,7 +67,7 @@
       "timestamp": "2025-09-03T07:45:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "user": {
         "id": 104,
         "username": "lisa_rose",
@@ -89,7 +89,7 @@
       "timestamp": "2025-09-04T15:20:00Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "user": {
         "id": 105,
         "username": "sara_smith",
@@ -111,54 +111,46 @@
       "timestamp": "2025-09-02T19:10:00Z"
     }
   ],
-
-
-  "profile" :{
-        "id": 101,
-        "username": "john_doe",
-        "profile_pic": "/src/assets/profilepic1.jpeg"
-      },
-
-
-  "suggestions":[
+  "profile": {
+    "id": 101,
+    "username": "toona_miaw",
+    "profile_pic": "/src/assets/profilepic2.jpeg"
+  },
+  "suggestions": [
     {
-        "id": 101,
-        "username": "john_doe",
-        "profile_pic": "/src/assets/profilepic1.jpeg"
-      },
-      {
-        "id": 102,
-        "username": "sara_smith",
-        "profile_pic": "/src/assets/profilepic2.jpeg"
-      },
-      {
-        "id": 103,
-        "username": "mike_fit",
-        "profile_pic": "/src/assets/profilepic3.jpg"
-      },
-      {
-        "id": 104,
-        "username": "lisa_rose",
-        "profile_pic": "/src/assets/profilepic4.jpeg"
-      },
-      {
-        "id": 105,
-        "username": "lisa_rose_go",
-        "profile_pic": "/src/assets/profilepic4.jpeg"
-      },
-      {
-        "id": 106,
-        "username": "lisa",
-        "profile_pic": "/src/assets/profilepic4.jpeg"
-      }
-
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "/src/assets/profilepic1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "sara_smith",
+      "profile_pic": "/src/assets/profilepic2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "mike_fit",
+      "profile_pic": "/src/assets/profilepic3.jpg"
+    },
+    {
+      "id": "104",
+      "username": "lisa_rose",
+      "profile_pic": "/src/assets/profilepic4.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "lisa_rose_go",
+      "profile_pic": "/src/assets/profilepic4.jpeg"
+    },
+    {
+      "id": "106",
+      "username": "lisa",
+      "profile_pic": "/src/assets/profilepic4.jpeg"
+    }
   ],
-
-
-
   "story": [
     {
-      "id": 1,
+      "id": "1",
       "user": {
         "id": 101,
         "username": "john_doe",
@@ -167,7 +159,7 @@
       "image": "/src/assets/story1.png"
     },
     {
-      "id": 2,
+      "id": "2",
       "user": {
         "id": 102,
         "username": "sara_smith",
@@ -175,20 +167,17 @@
       },
       "image": "/src/assets/story2.png"
     },
-    
     {
-      "id": 3,
+      "id": "3",
       "user": {
         "id": 103,
         "username": "mike_fit",
         "profile_pic": "/src/assets/profilepic3.jpg"
       },
       "image": "/src/assets/story3.png"
-      
     },
-
     {
-      "id": 4,
+      "id": "4",
       "user": {
         "id": 104,
         "username": "lisa_rose",
@@ -196,39 +185,58 @@
       },
       "image": "/src/assets/story4.png"
     },
-
     {
-      "id": 5,
+      "id": "5",
       "user": {
         "id": 102,
         "username": "sara_smith",
         "profile_pic": "/src/assets/profilepic2.jpeg"
       },
       "image": "/src/assets/story1.png"
-      
     },
     {
-      "id": 6,
+      "id": "6",
       "user": {
         "id": 103,
         "username": "mike",
         "profile_pic": "/src/assets/profilepic3.jpg"
       },
       "image": "/src/assets/story3.png"
-      
     },
     {
-      "id": 7,
+      "id": "7",
       "user": {
         "id": 103,
         "username": "_boomike_fity",
         "profile_pic": "/src/assets/profilepic3.jpg"
       },
       "image": "/src/assets/story3.png"
-      
     }
+  ],
+
+
+  "followers" :[
+    {
+      "id": 103,
+        "username": "_boomike_fity",
+        "profile_pic": "/src/assets/profilepic3.jpg"
+    },
+    {
+        "id": 102,
+        "username": "sara_smith",
+        "profile_pic": "/src/assets/profilepic2.jpeg"
+      },
+      {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/src/assets/profilepic1.jpeg"
+      },
+      {
+        "id": 100,
+        "username": "john_doe",
+        "profile_pic": "/src/assets/profilepic1.jpeg"
+      }
+
 
   ]
 }
-
-
