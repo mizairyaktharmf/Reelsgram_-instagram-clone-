@@ -7,20 +7,25 @@ function Stories() {
 
   const navigate = useNavigate();
 
+  let tot = 0;
+
   useEffect(()=>{
         fetch('http://localhost:3000/story')
         .then((data)=>data.json())
-        .then((data)=>setStories(data)).
-        catch(err=> console.log(err))
+        .then((data)=>setStories(data))
+        .catch(err=> console.log(err))
       },[]);
 
 
 
   return (
     <div className=' story d-flex'>
+      <div className='d-none'>
+        {tot = stories.length}
+      </div>
       {stories.length > 0 ? (
         stories.map((story) =>(
-          <div key={story.id} className='mx-1' onClick={() =>{navigate(`http://localhost:5173/story/${story.id}/${tot}`)}}>
+          <div key={story.id} className='mx-1' onClick={() =>{navigate(`/story/${story.id}/${tot}`)}}>
             <div className='gradient-border'>
               <img src={story.user.profile_pic} alt="user profile pic"  className='story-dp rounded-circle'/>
             </div>

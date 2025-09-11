@@ -28,8 +28,7 @@ function ViewStory() {
             <img className='vh-100' src={story.image} alt="user'sstory" />
             <Link to={`http://localhost:5173/story/${Number(id)+1}/${tot}`}><i className="bi bi-arrow-right-circle-fill"></i></Link>
             </ div> : 
-
-            <div>Loading</div>}
+             <div>Loading</div>}
     </div>
   )
 }
